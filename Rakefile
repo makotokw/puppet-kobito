@@ -11,6 +11,8 @@ task :update_to_latest_version do
   item = REXML::XPath.match(doc, "(rss/channel/item)[last()]")
   exit if item.empty?
 
+  puts item[0]
+
   v = item[0].get_text('title').value
   v = v.sub(/version\s/i, '')
   exit unless /^[\d\.]+$/ === v
