@@ -1,6 +1,6 @@
-# Kobito Puppet Module for Boxen
+# Kobito 1.x Puppet Module for Boxen
 
-[Kobito](http://kobito.qiita.com/) for Boxen.
+[Kobito](http://kobito.qiita.com/) 1.x for Boxen.
 
 ## Usage
 
